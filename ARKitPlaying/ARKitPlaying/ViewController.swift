@@ -37,8 +37,10 @@ class ViewController: UIViewController {
             return
         }
         
-        node.geometry?.materials.first?.diffuse.contents = UIImage(named: "texture\(Int(arc4random_uniform(6)))")
-        
+        node.geometry?.materials.forEach({ material in
+            material.diffuse.contents = UIImage(named: "texture\(Int(arc4random_uniform(6)))")
+        })
+                
     }
 
 }
@@ -60,7 +62,11 @@ extension ViewController {
         
         let material = SCNMaterial()
         material.diffuse.contents = UIImage(named: "texture1")
-        box.materials = [material]
+        
+        let material1 = SCNMaterial()
+        material1.diffuse.contents = UIImage(named: "texture5")
+        
+        box.materials = [material, material1]
         
         sceneView.scene.rootNode.addChildNode(boxNode)
     }
