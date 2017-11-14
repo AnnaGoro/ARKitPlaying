@@ -14,7 +14,13 @@
 		17991EE51FBB5BF9009DC2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17991EE31FBB5BF9009DC2E0 /* LaunchScreen.storyboard */; };
 		17991EF01FBB5BF9009DC2E0 /* ARKitPlayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17991EEF1FBB5BF9009DC2E0 /* ARKitPlayingTests.swift */; };
 		17991EFC1FBB5E63009DC2E0 /* Matrix+float3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17991EFB1FBB5E63009DC2E0 /* Matrix+float3.swift */; };
-		17991EFE1FBB6171009DC2E0 /* brick in Resources */ = {isa = PBXBuildFile; fileRef = 17991EFD1FBB6170009DC2E0 /* brick */; };
+		17991EFE1FBB6171009DC2E0 /* texture3 in Resources */ = {isa = PBXBuildFile; fileRef = 17991EFD1FBB6170009DC2E0 /* texture3 */; };
+		17991F041FBB6FC2009DC2E0 /* texture2 in Resources */ = {isa = PBXBuildFile; fileRef = 17991EFF1FBB6FC2009DC2E0 /* texture2 */; };
+		17991F051FBB6FC2009DC2E0 /* texture0 in Resources */ = {isa = PBXBuildFile; fileRef = 17991F001FBB6FC2009DC2E0 /* texture0 */; };
+		17991F061FBB6FC2009DC2E0 /* texture1 in Resources */ = {isa = PBXBuildFile; fileRef = 17991F011FBB6FC2009DC2E0 /* texture1 */; };
+		17991F071FBB6FC2009DC2E0 /* texture5 in Resources */ = {isa = PBXBuildFile; fileRef = 17991F021FBB6FC2009DC2E0 /* texture5 */; };
+		17991F081FBB6FC2009DC2E0 /* texture6 in Resources */ = {isa = PBXBuildFile; fileRef = 17991F031FBB6FC2009DC2E0 /* texture6 */; };
+		17991F0A1FBB701B009DC2E0 /* texture4 in Resources */ = {isa = PBXBuildFile; fileRef = 17991F091FBB701B009DC2E0 /* texture4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,13 @@
 		17991EEF1FBB5BF9009DC2E0 /* ARKitPlayingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitPlayingTests.swift; sourceTree = "<group>"; };
 		17991EF11FBB5BF9009DC2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17991EFB1FBB5E63009DC2E0 /* Matrix+float3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matrix+float3.swift"; sourceTree = "<group>"; };
-		17991EFD1FBB6170009DC2E0 /* brick */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick; sourceTree = "<group>"; };
+		17991EFD1FBB6170009DC2E0 /* texture3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture3; sourceTree = "<group>"; };
+		17991EFF1FBB6FC2009DC2E0 /* texture2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture2; sourceTree = "<group>"; };
+		17991F001FBB6FC2009DC2E0 /* texture0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture0; sourceTree = "<group>"; };
+		17991F011FBB6FC2009DC2E0 /* texture1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture1; sourceTree = "<group>"; };
+		17991F021FBB6FC2009DC2E0 /* texture5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture5; sourceTree = "<group>"; };
+		17991F031FBB6FC2009DC2E0 /* texture6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture6; sourceTree = "<group>"; };
+		17991F091FBB701B009DC2E0 /* texture4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texture4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +99,13 @@
 				17991EDE1FBB5BF9009DC2E0 /* Main.storyboard */,
 				17991EE11FBB5BF9009DC2E0 /* Assets.xcassets */,
 				17991EE31FBB5BF9009DC2E0 /* LaunchScreen.storyboard */,
-				17991EFD1FBB6170009DC2E0 /* brick */,
+				17991EFD1FBB6170009DC2E0 /* texture3 */,
+				17991F011FBB6FC2009DC2E0 /* texture1 */,
+				17991EFF1FBB6FC2009DC2E0 /* texture2 */,
+				17991F021FBB6FC2009DC2E0 /* texture5 */,
+				17991F031FBB6FC2009DC2E0 /* texture6 */,
+				17991F091FBB701B009DC2E0 /* texture4 */,
+				17991F001FBB6FC2009DC2E0 /* texture0 */,
 				17991EE61FBB5BF9009DC2E0 /* Info.plist */,
 			);
 			path = ARKitPlaying;
@@ -193,8 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17991EFE1FBB6171009DC2E0 /* brick in Resources */,
+				17991EFE1FBB6171009DC2E0 /* texture3 in Resources */,
+				17991F081FBB6FC2009DC2E0 /* texture6 in Resources */,
+				17991F071FBB6FC2009DC2E0 /* texture5 in Resources */,
+				17991F051FBB6FC2009DC2E0 /* texture0 in Resources */,
 				17991EE51FBB5BF9009DC2E0 /* LaunchScreen.storyboard in Resources */,
+				17991F061FBB6FC2009DC2E0 /* texture1 in Resources */,
+				17991F0A1FBB701B009DC2E0 /* texture4 in Resources */,
+				17991F041FBB6FC2009DC2E0 /* texture2 in Resources */,
 				17991EE21FBB5BF9009DC2E0 /* Assets.xcassets in Resources */,
 				17991EE01FBB5BF9009DC2E0 /* Main.storyboard in Resources */,
 			);

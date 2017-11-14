@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let tapLocation = recognizer.location(in: sceneView)
         let hitTestResults = sceneView.hitTest(tapLocation)
         guard let node = hitTestResults.first?.node else {
+            
             let hitTestResultsWithFeaturePoints = sceneView.hitTest(tapLocation, types: .featurePoint)
             if let hitTestResultWithFeaturePoints = hitTestResultsWithFeaturePoints.first {
                 let translation = hitTestResultWithFeaturePoints.worldTransform.translation
@@ -35,7 +36,9 @@ class ViewController: UIViewController {
             }
             return
         }
-        node.removeFromParentNode()
+        
+        node.geometry?.materials.first?.diffuse.contents = UIImage(named: "texture\(Int(arc4random_uniform(6)))")
+        
     }
 
 }
@@ -56,7 +59,7 @@ extension ViewController {
         boxNode.position = SCNVector3(x, y, z)
         
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: "brick")
+        material.diffuse.contents = UIImage(named: "texture1")
         box.materials = [material]
         
         sceneView.scene.rootNode.addChildNode(boxNode)
